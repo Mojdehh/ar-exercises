@@ -5,3 +5,12 @@ puts "Exercise 2"
 puts "----------"
 
 # Your code goes here ...
+
+# Load 2 stores and store them in instance variables and update the first one 
+@store1 = Store.find_by(id: 1)
+@store2 = Store.find_by(id: 2)
+@store1.update(name: 'Markham') 
+
+
+puts "----------"
+puts "End of Exercise 2"
